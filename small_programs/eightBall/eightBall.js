@@ -4,10 +4,12 @@ In this project we will build the Magic Eight Ball using control flow in JavaScr
 The user will be able to input a question, then our program will output a random fortune.
 */
 
-let userName = prompt("What is your name");
+//let userName = prompt("What is your name");
+let userName = 'Ricky';
 userName ? console.log(`Hello ${userName}`): console.log("Hello")
 
-const userQuestion = prompt("What do you want to ask to Eight Ball")
+//const userQuestion = prompt("What do you want to ask to Eight Ball")
+const userQuestion = 'abc';
 console.log(`${userName} your question is ${userQuestion}`)
 
 let randomNumber = Math.floor(Math.random() * 8)
