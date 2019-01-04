@@ -14,7 +14,7 @@
 Given the radius of a circle, “computeAreaOfACircle” returns its area*/
 
 function computeAreaOfACircle(radius){
-    return radius * radius * Math.PI;
+    return (radius + radius) * Math.PI;
 }
 
 var output = computeAreaOfACircle(4);
